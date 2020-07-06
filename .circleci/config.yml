@@ -29,7 +29,3 @@ jobs:
       - run:
           name: Testing
           command: npm run test -- --no-watch --no-progress --browsers=ChromeHeadlessCI
-      # End to End test
-      - run:
-          name: End to End Test
-          command: $(npm bin)/cypress run --record --key <record_key>
