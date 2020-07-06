@@ -15,6 +15,7 @@ import { MapComponent } from './map/map.component';
 import { ProductsComponent } from './products/products.component';
 // services
 import { ProductsService } from './services/products.service';
+import { TrackClickDirective } from './track-click.directive';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { ProductsService } from './services/products.service';
     ProductDetailComponent,
     ProductFormComponent,
     MapComponent,
-    ProductsComponent
+    ProductsComponent,
+    TrackClickDirective
   ],
   imports: [
     BrowserModule,
